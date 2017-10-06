@@ -1,0 +1,7 @@
+.sketch-button {
+  width:150px;
+  background-image: url('/images/stripe.png');
+  padding: 5px;
+  margin-left: 2em;
+  cursor: pointer;
+}

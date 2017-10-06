@@ -1,0 +1,39 @@
+.intro {
+  margin-left: 1em;
+  margin-bottom: 15px;
+}
+
+.intro h4 {
+}
+
+.section {
+  margin-left: 1em;
+  margin-bottom: 10px;
+}
+
+.section_title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.subsection {
+  margin-left: 1.5em;
+}
+
+.subsection_title {
+  font-size: 14px;
+}
+
+.content {
+  font-size: 14px;
+  margin-left: 0.1em;
+}
+
+.content ul {
+  list-style: disc;
+}
+
+.reference {
+  display: inline-block;
+  margin-left: 25px;
+}

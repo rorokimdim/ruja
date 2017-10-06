@@ -1,0 +1,30 @@
+.publications {
+  margin-top: 20px;
+  margin-left: 3em;
+}
+
+.publications ol {
+}
+
+.publications ol li {
+  margin-left: 1.5em;
+  margin-bottom: 10px;
+}
+
+.publications .title {
+  font-size: 14px;
+  width: 90%;
+  margin-left: 0.5em;
+}
+
+.publications .graphic {
+  margin-top: 10px;
+  margin-left: 1em;
+}
+
+.publications .abstract {
+  margin-top: 15px;
+  margin-left: 0.5em;
+  font-size: 14px;
+  width: 90%;
+}

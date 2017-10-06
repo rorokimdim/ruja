@@ -1,0 +1,108 @@
+@media print{
+  #menu {
+    display: none;
+  }
+
+  .pagebreak {
+    page-break-before: always;
+  }
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 20%;
+}
+
+.content {
+  width: 80%;
+  font-family: serif;
+  margin-top: 10px;
+}
+
+.content h3 {
+  margin-left: 1em;
+  font-style: italic;
+}
+
+.content p {
+  margin-left: 2em;
+  width: 350px;
+  font-size: 16px;
+}
+
+.content .l1 {
+  margin-left: 3em;
+
+}
+
+.content .l2 {
+  margin-left: 4em;
+}
+
+.content .l3 {
+  margin-left: 5em;
+}
+
+.content .l4 {
+  margin-left: 9em;
+}
+
+.content ul {
+  list-style-image: url('/images/right_arrow.png');
+}
+
+#menu {
+ margin-top:5px;
+ border-bottom: 1px solid black;
+}
+
+#menu .item:hover {
+  background-image: url('/images/arrow.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 5px 0px 0px 0px;
+}
+
+#menu .selected-item {
+  background-image: url('/images/arrow.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 5px 0px 0px 0px;
+}
+
+#menu .item a{
+  padding: 15px 0px 2px 0px;
+  margin: 15px 15px 15px 15px;
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#menu .selected-item a{
+  color: green;
+  cursor: pointer;
+}
+
+#submenu {
+  margin-top: 0px;
+}
+
+#submenu .item:hover {
+}
+
+#submenu .selected-item {
+}
+
+#submenu .item a{
+  margin: 10px 15px 15px 15px;
+}
+
+#submenu .selected-item a{
+}
+
+.vertical_spacer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
