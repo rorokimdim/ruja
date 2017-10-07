@@ -1,7 +1,7 @@
 ruja
 ====
 
-Ruja's personal website: http://rujashrestha.info
+Ruja's personal website: http://rujashrestha.info.s3-website-us-west-2.amazonaws.com/
 
 Overview
 --------
